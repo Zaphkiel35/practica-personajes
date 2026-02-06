@@ -8,7 +8,7 @@
 header{
     width: 1366px;
     height: 150px;
-    background-color: red;
+    background-color: rgb(255, 50, 50);
     margin: 0 auto;
     text-align: center;
 }
@@ -18,8 +18,8 @@ header img{
 nav{
     width: 1366px;
     height: 50px;
-    background-color: black;
-    color: whitesmoke;
+    background-color: rgb(25, 25, 25);
+    color: rgb(220, 220, 220);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -27,21 +27,20 @@ nav{
     margin: 0 auto;
 }
 nav a{
-    color: whitesmoke;
+    color: rgb(220, 220, 220);
     text-decoration: none;
     padding: 15px 20px;
     transition: .5s;
     font-size: larger;
 }
 nav a:hover{
-    background-color: red;
-    color: black;
+    background-color: rgb(255, 50, 50);
+    color: rgb(25, 25, 25);
     transform: scale(1.2);
 }
 main{
     width: 1366px;
     height: 2000px;
-    /*background-color: rgb(92, 0, 0);*/
     margin: 0 auto;
 
     background-image: url(../img/fondo1.png);
@@ -51,7 +50,6 @@ main{
 .personaje{
     width: 1300px;
     height: 400px;
-    /*background-color: rgb(220, 106, 106);*/
     margin-left: 33px;
     margin-top: 80px;
     display: inline-block;
@@ -59,7 +57,6 @@ main{
 .foto{
     width: 400px;
     height: 400px;
-    /*background-color: rgb(255, 0, 0);*/
     float: left;
     margin-left: 33px;
     text-align: center;
@@ -70,21 +67,46 @@ main{
 .info{
     width: 800px;
     height: 400px;
-    background-color:black;
-    color: whitesmoke;
+    background-color: rgb(25, 25, 25);
+    color: rgb(220, 220, 220);
     float: left;
     margin-left: 33px;
     padding: 30px;
-    border: 10px ridge red;
+    border: 10px ridge rgb(255, 50, 50);
 }
 .info h3{
     font-size: 1.8rem;
     margin: 20px 0;
 }
+.info a{
+    text-decoration: none;
+    color: rgb(220, 220, 220);
+    transition: .5s;
+}
+.info a:hover{
+    color: rgb(255, 50, 50);
+    font-size: large;
+}
 footer{
     width: 1366px;
-    height: 200px;
-    background-color:black;
-    color: whitesmoke;
+    height: 300px;
+    background-color:rgb(25, 25, 25);
+    color: rgb(220, 220, 220);
     margin: 0 auto;
+    padding: 20px;
+}
+footer a{
+    display: block;
+    padding-top: 10px;
+    color: rgb(220, 220, 220);
+    text-decoration: none
+}
+footer a:hover{
+    font-size: large;
+    text-decoration: underline;
+    color: rgb(255, 50, 50);
+}
+footer p{
+    padding-top: 20px;
+    color: rgb(220, 220, 220);
 }
